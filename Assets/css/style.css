@@ -1,0 +1,398 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    background-color: #070707;
+    color: white;
+    font-family: 'Inter', sans-serif;
+}
+
+::selection {
+    background-color: none;
+    color: #0176d3;
+    text-shadow: none;
+  }
+
+  
+/* Banner section start */
+.Banner-section{
+    margin: 100px 0px 100px 0px;
+}
+.Banner-wrapper{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1180px;
+    margin: 0px auto;
+    position: relative;
+}
+.banner-left-section{
+    width: 50%;
+}
+.banner-right-section{
+    width: 50%;
+}
+.banner-left-title h2{
+    font-size: 117px;
+    text-transform: uppercase;
+    font-weight: 900;
+    margin: 0px 0px 0px 0px;
+}
+.banner-left-title h2:nth-child(2){
+    color: white;
+}
+.banner-link-folder{
+    display: flex;
+    align-items: center;
+    gap: 17px;
+}
+.banner-link-folder a{
+    font-size: 20px;
+    text-decoration: none;
+    color: #DADADA;
+}
+.banner-image img {
+    width: 100%;
+    display: block;
+    position: relative;
+    z-index: 1;
+}
+.banner-left-title {
+    margin-bottom: 72px;
+}
+.banner-aleft-link-continer{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.banner-background-title1{
+    position: absolute;
+    top: -9%;
+    left: -3.6%;
+}
+.banner-background-title2 {
+    position: absolute;
+    top: 33%;
+    left: -3.6%;
+}
+.banner-surname{
+    margin: 20px 0px 100px 0px;
+}
+.container {
+    height: 100%;
+    width: 100%;
+  }
+/* .p1 {
+    text-shadow: 1px 1px 1px black, -1px -1px 1px black;
+    color: cyan;
+} */
+
+.p3{
+    color: #ffd600 !important;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+    animation: text-animation 3s ease-in-out forwards alternate infinite;
+    text-shadow: 1px 1px 1px black, -1px -1px 1px black;
+    position: absolute;
+    top: -4.6%;
+    left: 0.2%;
+}
+
+.p2 {
+    color: #ffd600;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+    animation: text-animation 3s ease-in-out forwards alternate infinite;
+    text-shadow: 1px 1px 1px black, -1px -1px 1px black;
+    position: absolute;
+    top: 26.5%;
+    left: 0.2%;
+}
+@keyframes text-animation {
+    from {
+      clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+    }
+    to {
+      clip-path: polygon(0 0, 0% 1%, 0% 100%, 0% 100%);
+    }
+}
+
+.footer-section a{
+    color: #0176d3;
+}
+
+/* Banner section end */
+
+.work-experience-section, 
+.specialization-section, 
+.skills-section, 
+.Softwares-section{
+    max-width: 1180px;
+    margin: 0px auto 70px auto;
+    position: relative;
+}
+.work-experience-wrapper, 
+.specialization-wrapper, 
+.skills-wrapper, 
+.Softwares-wrapper{
+    max-width: 1026px;
+}
+.work-experience-title, 
+.specialization-title, 
+.skills-wrapper h2, 
+.Softwares-wrapper h2{
+    margin-bottom: 50px;
+    font-size: 28px;
+    color: #DADADA;
+    text-transform: uppercase;
+}
+.work-experience-container, 
+.specialization-container, 
+.skills-container, 
+.Softwares-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.work-experience-folder, 
+.specialization-folder{
+    width: 328px;
+    padding: 30px 20px;
+    position: relative;
+    background-color: #111111;
+    color: #DADADA;
+    border-radius: 12px;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    -ms-border-radius: 12px;
+    -o-border-radius: 12px;
+}
+.specialization-folder {
+    width: 503px;
+    background-color: transparent;
+    border: 1px solid #272727;
+}
+
+.specialization-folder p:nth-child(3){
+    color: #ffd600;
+}
+
+.work-experience-folder h2, 
+.specialization-folder h2{
+    font-size: 39px;
+    /* color: #0176d3; */
+    color: #ffd600;
+}
+.work-experience-folder span{
+    font-size: 26px;
+    display: block;
+    margin: 20px 0px 7px 0px;
+}
+.specialization-folder span {
+    font-size: 27px;
+    display: block;
+    /* margin: 20px 0px 8px 0px; */
+    margin: 0px 0px 8px 0px;
+    max-width: 413px;
+}
+.work-experience-folder p, 
+.specialization-folder p{
+    font-size: 19px;
+}
+.work-experience-folder-number,
+.specialization-folder-number{
+    position: absolute;
+    top: 13%;
+    right: 6%;
+}
+.skills-image img, 
+.Softwares-image img{
+    width: 110px;
+}
+.title{
+    position: absolute;
+    top: 18%;
+    right: 0%;
+}
+
+/* footer section start */
+.footer-section{
+    text-align: center;
+    color: #DADADA;
+}
+.footer-section h2{
+    font-size: 50px;
+    text-transform: uppercase;
+}
+.footer-section p{
+    max-width: 501px;
+    margin: 24px auto 70px auto;
+    font-size: 15px;
+    line-height: 24px;
+}
+.email-btn{
+    margin-bottom: 61px;
+}
+.email-btn a{
+    padding: 12px 29px;
+    text-decoration: none;
+    font-size: 19px;
+    background-color: #111111;
+    /* color: #E13625; */
+    color: #ffd600;
+}
+.footer-iocn-folder {
+    display: flex;
+    justify-content: center;
+    gap: 34px;
+}
+.footer-iocn-folder a{
+    font-size: 40px;
+    color: #DADADA;
+}
+.author-name{
+    margin: 41px auto 30px auto !important;
+    font-size: 13px;
+    line-height: 24px;
+    max-width: 167px !important;
+}
+.footer-section{
+    margin-top: 80px;
+}
+/* footer section end */
+
+
+@media only screen and (max-width: 768px) {
+    
+}
+
+@media only screen and (max-width: 767px) {
+    .Banner-section {
+        margin: 40px 0px 100px 0px;
+    }
+    .Banner-wrapper{
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+        max-width: 329px;
+    }
+    .banner-left-section{
+        width: 100%;
+    }
+    .banner-left-title {
+        margin-bottom: 46px;
+    }
+    .banner-left-title h2 {
+        font-size: 66px;
+    }
+
+    .p3{
+        top: 0%;
+        left: 0.5%;
+    }
+    .p2 {
+        position: absolute;
+        top: 26.8%;
+        left: 0.5%;
+    }
+    .banner-link-folder a {
+        font-size: 16px;
+    }
+    .banner-right-section{
+        width: 100%;
+    }
+    .banner-background-title1 {
+        position: absolute;
+        top: -2%;
+        left: -1.6%;
+        width: 342px;
+    }
+    .banner-background-title2 {
+        position: absolute;
+        top: 17%;
+        left: -1.6%;
+        width: 342px;
+    }
+    .banner-background-title1 img, 
+    .banner-background-title2 img{
+        width: 100%;
+    }
+    .work-experience-section, 
+    .specialization-section, 
+    .skills-section, 
+    .Softwares-section {
+        max-width: 329px;
+    }
+    .work-experience-wrapper, 
+    .specialization-wrapper, 
+    .skills-wrapper, 
+    .Softwares-wrapper {
+        max-width: 100%;
+    }
+    .work-experience-folder h2, 
+    .specialization-folder h2 {
+        font-size: 37px;
+    }
+    .work-experience-folder span {
+        font-size: 26px;
+    }
+    .specialization-folder span {
+        font-size: 21px;
+        max-width: 275px;
+    }
+    .work-experience-folder p, 
+    .specialization-folder p {
+        font-size: 18px;
+        line-height: 23px;
+    }
+    .work-experience-title, 
+    .specialization-title, 
+    .skills-wrapper h2, 
+    .Softwares-wrapper h2 {
+        margin-bottom: 50px;
+        font-size: 24px;
+        text-align: center;
+    }
+    .skills-image img, .Softwares-image img {
+        width: 96px;
+    }
+    .footer-section h2 {
+        font-size: 38px;
+    }
+    .email-btn a {
+        font-size: 16px;
+    }
+    .footer-iocn-folder {
+        display: flex;
+        gap: 28px;
+    }
+    .footer-iocn-folder a {
+        font-size: 33px;
+    }
+    .footer-section p {
+        max-width: 314px;
+        margin: 24px auto 51px auto;
+        font-size: 12.8px;
+        line-height: 24px;
+    }
+    .author-name {
+        margin: 41px auto 30px auto !important;
+        font-size: 9px !important;
+        line-height: 16px !important;
+        max-width: 105px !important;
+    }
+    .title {
+        position: absolute;
+        top: 6%;
+        right: 0.1%;
+        opacity: 0.1 !important;
+    }
+    .work-experience-container{
+        flex-direction: column-reverse;
+    }
+    .work-experience-container, 
+    .specialization-container, 
+    .skills-container, 
+    .Softwares-container {
+        justify-content: center;
+    }
+}
